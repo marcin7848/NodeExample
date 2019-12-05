@@ -20,7 +20,6 @@ var pool  = mysql.createPool({
 
 pool.getConnection(function(err, connection) {
   // connected! (unless `err` is set)
-  connection.end();
 });
 
 global.db = pool;
