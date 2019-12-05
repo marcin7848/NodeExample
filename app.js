@@ -13,8 +13,8 @@ const port = 8080;
 // the mysql.createConnection function takes in a configuration object which contains host, user, password and the database name.
 const db = mysql.createConnection ({
     host: '192.168.99.100',
-    user: 'user',
-    password: 'user',
+    user: 'root',
+    password: 'root',
     database: 'socka'
 });
 
