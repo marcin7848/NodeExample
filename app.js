@@ -13,8 +13,8 @@ const port = 8080;
 
 var db_config = {
     host: '192.168.99.100',
-    user: 'user',
-    password: 'user',
+    user: 'root',
+    password: 'root',
     database: 'socka'
 };
 
